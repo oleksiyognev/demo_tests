@@ -93,7 +93,7 @@ public class PageTest
         new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(By.id("btnKCM")));
         System.out.println("Log in OK");
         try {
-            Thread.sleep(500);
+            Thread.sleep(400);
         } catch (InterruptedException e) {
             e.printStackTrace();
 
